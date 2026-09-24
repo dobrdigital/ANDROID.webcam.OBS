@@ -1,0 +1,4 @@
+config.json
+obs/my-scenes.json
+scrcpy/
+*.log

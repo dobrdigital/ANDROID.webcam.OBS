@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="ANDROID.webcam.OBS — an old Android phone becomes a webcam for OBS on Windows">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1320"/>
+      <stop offset="1" stop-color="#1b2335"/>
+    </linearGradient>
+    <linearGradient id="beam" gradientUnits="userSpaceOnUse" x1="204" y1="0" x2="360" y2="0">
+      <stop offset="0" stop-color="#3ddc84" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+
+  <!-- phone -->
+  <g transform="translate(70 58)">
+    <rect x="0" y="0" width="104" height="184" rx="16" fill="#232b3f" stroke="#3ddc84" stroke-width="4"/>
+    <rect x="12" y="22" width="80" height="136" rx="6" fill="#0f1320"/>
+    <circle cx="52" cy="11" r="4" fill="#3ddc84"/>
+    <circle cx="52" cy="90" r="22" fill="none" stroke="#3ddc84" stroke-width="4"/>
+    <circle cx="52" cy="90" r="9" fill="#3ddc84"/>
+    <rect x="38" y="168" width="28" height="6" rx="3" fill="#3ddc84" opacity="0.6"/>
+  </g>
+
+  <!-- cable / wifi beam -->
+  <path d="M194 150 L 356 150" stroke="url(#beam)" stroke-width="6" fill="none" stroke-dasharray="14 10"/>
+  <polygon points="356,138 380,150 356,162" fill="#8b5cf6"/>
+
+  <!-- monitor, live recording -->
+  <g transform="translate(396 64)">
+    <rect x="0" y="0" width="240" height="150" rx="12" fill="#232b3f" stroke="#8b5cf6" stroke-width="4"/>
+    <rect x="12" y="12" width="216" height="126" rx="6" fill="#0f1320"/>
+    <circle cx="84" cy="75" r="16" fill="#ef4444"/>
+    <text x="110" y="87" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#e5e7eb">REC</text>
+    <rect x="100" y="150" width="40" height="18" fill="#232b3f"/>
+    <rect x="70" y="166" width="100" height="8" rx="4" fill="#8b5cf6"/>
+  </g>
+
+  <!-- title -->
+  <text x="690" y="138" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#e5e7eb">ANDROID<tspan fill="#3ddc84">.webcam.</tspan><tspan fill="#8b5cf6">OBS</tspan></text>
+  <text x="692" y="178" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#9ca3af">Old Android phone → webcam for OBS on Windows</text>
+  <text x="692" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#6b7280">USB or Wi-Fi · flashlight · several phones · no app on the phone</text>
+</svg>
