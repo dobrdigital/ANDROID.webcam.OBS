@@ -99,7 +99,7 @@ Every button takes an optional phone number: `CAMERA-ON-LIGHT.bat 2` works on ph
 - 🎙️ **Phone microphone** into OBS (Android 11+), as a separate *Application Audio* source per phone.
 - 🔁 **Auto-reconnect** — cable wiggle, phone reboot, camera taken by another app: it comes back by itself.
 - 🛡️ **Camera-thief detection** — Samsung *Keep screen on while viewing* / Pixel *Screen attention* switched off on request; per-brand tips for the rest.
-- 📶 **Wi-Fi mode** — one click moves a USB phone to Wi-Fi; the address is remembered.
+- 📶 **Wi-Fi mode** — one click moves a USB phone to Wi-Fi; the address is remembered. *(Beta: built on the standard `adb tcpip` / `adb connect` flow, not yet field-tested — please open an issue if it misbehaves.)*
 - 👥 **Several phones** — each gets its own window, OBS source and mic (`PHONECAM 1`, `PHONECAM 2`, …).
 - 🎬 **OBS scene collection** with your primary monitor pre-filled.
 - 🧩 **Zero footprint** — plain PowerShell + `.bat`, no admin rights, nothing installed on the phone.
@@ -224,7 +224,7 @@ The scrcpy window is parked off-screen on purpose — OBS still captures all of 
 - 🎙️ **Микрофон телефона** в OBS (Android 11+) — отдельный источник на каждый телефон.
 - 🔁 **Автопереподключение** — кабель, перезагрузка, камеру забрало другое приложение: вернётся сама.
 - 🛡️ **Поиск «воров» камеры** — Samsung Smart Stay / Pixel «Адаптивный экран» выключаются по вашему согласию, для остальных брендов — подсказки.
-- 📶 **Wi-Fi** — одним кликом телефон с USB переходит на Wi-Fi, адрес запоминается.
+- 📶 **Wi-Fi** — одним кликом телефон с USB переходит на Wi-Fi, адрес запоминается. *(Бета: стандартная схема `adb tcpip` / `adb connect`, на живом устройстве ещё не проверялась — если что-то не так, откройте issue.)*
 - 👥 **Несколько телефонов** — у каждого своё окно, источник и микрофон в OBS.
 - 🎬 **Коллекция сцен OBS** с уже вписанным основным монитором.
 - 🧩 **Ничего лишнего** — PowerShell и `.bat`, без прав администратора, на телефон ничего не ставится.
